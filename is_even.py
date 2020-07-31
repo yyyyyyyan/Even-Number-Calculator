@@ -56,8 +56,3 @@ def is_even(number):                                            # Define functio
     if number in all_even_numbers:                              # Check if number is in the list of even numbers
         return True                                             # Return True if it is (it's even!!!)
     return False                                                # Return False if it's not (it's odd :( )
-
-print(is_even(5))
-print(is_even(8))
-print(is_even(1003))
-print(is_even(1064))
